@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc ee3af44f962f0fc0dc2296d65deb6e52fdb97583411172798f2b801528130245 # shrinks to list = GroceryList { items: [GroceryItem { name: " ", quantity: 972.3205889543453, unit: Grams, checked: false }], generated_at: "2026-01-01T00:00:00Z" }
+cc 857bec622d9d6d4149c0a069da95d3884b47896fee2e9e757e796abffa41ca03 # shrinks to recipe = Recipe { id: 26577fcf-759b-4fbe-9f8f-4adcb91573b2, name: "A", ingredients: [Ingredient { name: "a", quantity: 912.0054798131417, unit: Grams }], default_servings: 1, instructions: "" }

@@ -1,0 +1,19 @@
+[package]
+name = "mealprep"
+version = "0.1.0"
+edition = "2021"
+description = "Weekly meal planning TUI with smart grocery lists"
+
+[dependencies]
+ratatui = "0.29.0"
+crossterm = "0.28.1"
+clap = { version = "4.5.0", features = ["derive"] }
+serde = { version = "1.0.210", features = ["derive"] }
+serde_json = "1.0.128"
+uuid = { version = "1.10.0", features = ["v4", "serde"] }
+dirs = "5.0.1"
+chrono = { version = "0.4.38", features = ["serde"] }
+anyhow = "1.0.89"
+
+[dev-dependencies]
+proptest = "1.5.0"

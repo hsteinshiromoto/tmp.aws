@@ -1,0 +1,7 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 924494260fb1d5ce2a62e2fe3f8a0781de275b2cd1c290087251734002a773e6 # shrinks to recipes_data = [Recipe { id: f2d32e96-67ec-47de-a3a4-1acaf5653973, name: "aaa", ingredients: [Ingredient { name: "aaa", quantity: 0.1, unit: Grams }], default_servings: 1, instructions: "" }], household_size = 1
